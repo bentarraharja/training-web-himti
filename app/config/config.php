@@ -1,0 +1,7 @@
+<?php
+
+define('BASEURL', 'http://localhost/training-web-himti');
+define('DB_HOST', 'localhost');
+define('DB_USER', 'username DBMS');
+define('DB_PASS', 'Password DBMS');
+define('DB_NAME', 'Nama Database');
