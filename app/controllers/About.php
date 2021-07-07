@@ -4,7 +4,12 @@ class About extends Controller
 {
     public function index()
     {
-        echo "Controller About";
+        $data['title'] = "Halaman About";
+
+
+        $this->view('layouts/header', $data);
+        $this->view('about/index');
+        $this->view('layouts/footer');
     }
     
 }
